@@ -36,39 +36,28 @@ npm install
 ```
 This downloads everything needed. You only need to do this once!
 
-#### **2️⃣ Start the Backend** (First Terminal)
+#### **2️⃣ Run Everything in One Terminal**
 
 ```bash
-npm start
+npm run dev
 ```
 
-You'll see:
+You'll see both starting:
 ```
 ✓ SmartWaste AI Backend running on http://localhost:5000
 ✓ API available at http://localhost:5000/api
-```
+Admin login: username "admin", password "admin123"
 
-✅ **Backend is ready!** Keep this terminal open.
-
-#### **3️⃣ Start the Frontend** (Second Terminal)
-
-Open a new terminal and run:
-```bash
-npm run dev:frontend
-```
-
-You'll see:
-```
 ➜  Local:   http://localhost:5176/
 ```
 
-✅ **Frontend is ready!**
+✅ **Both backend and frontend are ready!**
 
-#### **4️⃣ Open in Browser**
+#### **3️⃣ Open in Browser**
 
 Click this link or copy-paste in browser: **http://localhost:5176**
 
-🎉 **Done! The app is running!**
+🎉 **Done! Everything is running in one terminal!**
 
 ---
 
@@ -166,7 +155,7 @@ smartwaste-ai/
 
 ## 🛑 How to Stop
 
-Press **Ctrl + C** in each terminal (backend and frontend)
+Press **Ctrl + C** in the terminal to stop everything at once
 
 ---
 
@@ -241,8 +230,8 @@ To run on another computer:
 1. Install Node.js
 2. Copy the project folder
 3. Run `npm install`
-4. Run `npm start` and `npm run dev:frontend`
-5. Done!
+4. Run `npm run dev`
+5. Done! Everything runs in one terminal
 
 ---
 
@@ -251,8 +240,7 @@ To run on another computer:
 - [ ] Node.js installed
 - [ ] Opened project folder in terminal
 - [ ] Ran `npm install`
-- [ ] Backend running: `npm start` 
-- [ ] Frontend running: `npm run dev:frontend`
+- [ ] Running: `npm run dev`
 - [ ] Browser open at http://localhost:5176
 - [ ] Can see three tabs: Citizen, Driver, Municipal
 - [ ] Demo data visible (citizens, drivers, pickups)
